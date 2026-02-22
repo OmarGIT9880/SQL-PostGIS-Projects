@@ -1,89 +1,34 @@
-# Omar SQL & PostGIS Portfolio
+# SQL & PostGIS Projects  
 
-This repository contains SQL and PostGIS projects demonstrating spatial
-database design, data loading, indexing, and spatial analysis.  
-The projects focus on building and querying spatial databases using
-PostgreSQL with the PostGIS extension.
+This repository contains database and spatial query projects focused on SQL, PostgreSQL, and PostGIS.
 
-This work reflects coursework and hands-on practice with relational
-databases and GIS-focused SQL workflows.
+The work demonstrates structured database design, data querying, and spatial analysis using relational database systems.
+
+Projects are organized to reflect both foundational SQL concepts and applied spatial database workflows.
 
 ---
 
-## Featured Projects
+## Project Areas  
 
-### PostGIS Data Loading & Spatial Indexing
-**File:** `postgis_data_loading_and_indexing.sql`
+### Databases  
+Exercises and projects focused on database structure, schema design, and querying relational data.
 
-- Loads raw coordinate data into staging tables
-- Assigns and transforms spatial reference systems (SRID)
-- Creates geometry columns and spatial constraints
-- Builds GiST spatial indexes for efficient querying
-
-This project demonstrates a full workflow from raw data to an indexed,
-analysis-ready spatial database.
+### SQL  
+Query-based projects demonstrating data retrieval, filtering, aggregation, joins, and spatial querying using PostGIS.
 
 ---
 
-### PostGIS Database Design & Proximity Analysis
-**File:** `postgis_restaurants_highways_proximity.sql`
+## Focus  
 
-- Designs a relational spatial schema with lookup tables
-- Uses spatial joins and distance-based queries
-- Applies `ST_DWithin` and buffering for proximity analysis
-- Analyzes restaurant locations relative to major highways
+This repository demonstrates my ability to:
 
-This project highlights real-world spatial analysis using PostGIS.
-
----
-
-### PostGIS Geometry Formats & Casting
-**File:** `postgis_geometry_formats_and_casting.sql`
-
-- Converts geometries to GeoJSON, KML, SVG, and GML
-- Explores WKB and binary geometry representations
-- Demonstrates geometry type casting and constraints
-- Examines geometry vs. geography behavior
-
-This project focuses on advanced PostGIS geometry handling and data formats.
+- Design and query relational databases  
+- Write efficient and structured SQL statements  
+- Perform spatial queries using PostGIS  
+- Integrate database logic with GIS workflows  
 
 ---
 
-## Supporting Materials
+## Development Approach  
 
-- **ER Diagram** (`ER Diagram.png`)  
-  Visual representation of database schema and table relationships
-
-- **SQL Queries.pdf**  
-  Practice with core SQL querying, joins, filtering, and aggregation
-
-- **Getting Data From a Database.pdf**  
-  Fundamentals of retrieving and working with data from relational databases
-
----
-
-## Tools & Technologies
-
-- PostgreSQL
-- PostGIS
-- SQL
-- Spatial indexing (GiST)
-- Coordinate reference systems (SRID)
-
----
-
-## Notes
-
-- SQL scripts are written to be run in a PostGIS-enabled PostgreSQL database
-- File paths and data sources may need adjustment for local execution
-- Emphasis is on spatial database logic and query design rather than UI
-
----
-
-## About Me
-
-GIS major with a Computer Science & Engineering minor at The Ohio State University.  
-Interested in GIS analytics, spatial databases, and geospatial data engineering.
-
-For Python-based spatial analysis and algorithms, see my **Python Projects**
-repository.
+Projects emphasize clarity, logical query structure, and practical applications of database and spatial analysis concepts.
